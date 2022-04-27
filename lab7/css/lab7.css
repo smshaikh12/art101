@@ -25,3 +25,10 @@ h4{
 
 p{ font-family: monospace;
 }
+div {
+  color: blue;
+  font-weight: bold;
+  font-family:fantasy;
+}
+.output{font-family: monospace;
+}
