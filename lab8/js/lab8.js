@@ -4,12 +4,6 @@
 *License: Public Domain
 */
 
-/*
-* Author: Cassidy Crawford
-* Created: April 29th
-* License: Public Domain
-*/
-
 function addTwo(x){
   return (x + 2);
 }
