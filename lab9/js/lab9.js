@@ -34,5 +34,5 @@ head1El.appendChild(new2El);
 new2El.innerHTML = ("NO! click me dude");
 
 //style the new button
-new2El.style.backgroundColor = "light blue";
+new2El.style.backgroundColor = " blue";
 new2El.style.color = "white";
