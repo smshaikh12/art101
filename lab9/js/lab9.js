@@ -3,6 +3,8 @@
 *Created: 4 May 2022
 *License: Public Domain
 */
+
+
 //find the element
 var head1El = document.getElementById("output");
 
