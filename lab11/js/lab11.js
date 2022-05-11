@@ -7,9 +7,9 @@
 //create button for challeneges section
 $("#challenges").append("<button id='button1'>press me</button>");
 //create button for problems section
-$("#problems").append("<button id='button2'>press me</button>");
+$("#problems").append("<button id='button2'>press me too</button>");
 //create button for results section
-$("#results").append("<button id='button3'>press me</button>");
+$("#results").append("<button id='button3'>Don't forget to press me</button>");
 
 
 //create a click feeture for button1
