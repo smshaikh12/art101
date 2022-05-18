@@ -6,6 +6,7 @@
 
 //return Results
 //depending on length mode 4
+
 function sortingFlower (str) {
 length = str.length;
 mod = length % 4;
