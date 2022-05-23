@@ -4,31 +4,29 @@
 *License: Public Domain
 */
 
+var outputEl= document.getElementById("output");
+
+var inputEl = document.getElementById("user-name");
+
+var buttonEl = document.getElementById("the-button");
+
 //sortUserName- a function that takes user input and
 //sorts the letter of their name
-
-function sortUserName() {
-var userName = window.prompt("Hi. tell me your name!");
-  console.log("userName =", userName);
-  //split string into array
-var nameArray = userName.split('');
+function sortUserName(word) {
+  //split string to array
+  var nameArray = word.split('');
   console.log("nameArray =", nameArray);
-  //sort the array
-var nameArraySort = nameArray.sort();
-//join array back into the string
-var nameSorted = nameArraySort.join('');
-console.log("nameSorted =", nameSorted);
-return nameSorted;
+  // sort the array
+  var nameArraySort = nameArray.sort();
+  // join array back to a string
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted =", nameSorted);
+  return nameSorted;
 }
-//output
-var buttonEl = document.getElementById('the-button');
-// create event listener
+
+//create event
 buttonEl.addEventListener('click', function() {
-	alert("Your gonna leave!");
-  window.location.replace("https://www.google.com/");
+  var userName = inputEl.value;
+  var newName = sortUserName(userName);
+  outputEl.innerHTML = "<p> Here is your new name!" + newName + "</p>";
 });
-
-
-// output
-document.writeln("fixed it: ",
-  sortUserName(),"</br>");
