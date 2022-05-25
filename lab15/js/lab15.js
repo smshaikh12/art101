@@ -14,7 +14,6 @@ function getAjax() {
   	url: endpoint,
     type: "GET"
   })
-
   .done(function(data){
   	console.log("Worked!");
     str = ""
